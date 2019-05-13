@@ -1,0 +1,28 @@
+<!--End of Header-->
+<div class="container">
+	<?php include'sidebar.php';?>
+
+		<div class="col-xs-12 col-sm-9">
+			<!--<div class="jumbotron">-->
+				<div class="">
+					<div class="panel panel-default">
+				
+							<div class="panel-body">	
+								<div class="col-xs-12 col-sm-12">
+									<fieldset>
+										<legend><h2 class="text-left">About</h2></legend>
+										Pada tahun 2003, Elizabeth Gasataya dan Family telah memulai bisnis. Itu adalah PERSADA House, yang terletak di # 3 Rojas Street, Kabankalan City Negros Occidental Philippines 6111. Telah direnovasi dengan baik dengan 14 kamar ber-AC, Shower Panas dan Dingin, Televisi Kabel dan area WIFI.
+									</fieldset>
+								</div>
+							</div>
+						</div>		
+				
+					
+				</div>
+		<!--	</div>-->
+		</div>
+		<!--/span--> 
+		<!--Sidebar-->
+
+	</div>
+	<!--/row-->

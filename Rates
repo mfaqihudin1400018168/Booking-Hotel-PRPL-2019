@@ -1,0 +1,34 @@
+<?php
+$arrival= '';
+$departure= '';
+if (isset($_SESSION['from'])){
+$arrival = $_SESSION['from']; 
+$departure = $_SESSION['to'];
+}
+if(isset($_POST['btnbook'])){
+
+	if (!isset($_SESSION['from']) || !isset($_SESSION['to'])){
+		message("Please Choose check in Date and Check out Out date to continue reservation!", "error");
+		redirect("index.php?page=5");
+	}
+		 if(isset($_POST['roomid'])){
+    	 $_SESSION['roomid']=$_POST['roomid'];
+    	 redirect(WEB_ROOT. 'booking/');
+   
+	}
+}
+ /*if(!isset($_POST['adults'])){
+    message("Choose from Adults!", "error");	
+    redirect(".WEB_ROOT. 'booking/");
+   	//exit;
+ }*/
+ /* if(isset($_POST['adults'])&&isset($_POST['child'])){
+    $_SESSION['roomid']=$_POST['roomid'];
+	$_SESSION['adults'] = $_POST['adults'];
+	$_SESSION['child']  = $_POST['child'];
+   */
+//	$_SESSION['roomid']=$_POST['roomid'];
+
+    //exit;
+   //} 
+  //}
